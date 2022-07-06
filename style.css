@@ -37,3 +37,63 @@ nav {
 .nav-item a:hover {
   color: #fff;
 }
+
+.container {
+  padding: 1rem;
+}
+
+.page-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+  color: #4b4453;
+  margin-bottom: 1.5rem;
+}
+
+.products-list {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.product {
+  width: 300px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 1px 5px #4b445354;
+  padding: 0.6rem;
+  border-radius: 0.5rem;
+}
+
+.product .img-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.7rem;
+  overflow: hidden;
+  flex: 1;
+}
+.product .img-cont img {
+  height: 90%;
+  object-fit: contain;
+}
+
+.product .product-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.product-details * {
+  font-family: "Montserrat", sans-serif;
+}
+
+.product-details .buttons {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.product-details .buttons button {
+  flex: 1;
+  padding: 0.6rem;
+}
